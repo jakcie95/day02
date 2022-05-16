@@ -16,7 +16,6 @@ public class Quiz04 {
 			System.out.println("5의 배수가 아닙니다.");
 		}
 		
-		
 }		
 }
 
