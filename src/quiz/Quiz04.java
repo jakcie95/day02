@@ -5,17 +5,17 @@ import java.util.Scanner;
 public class Quiz04 {
 
 	public static void main(String[] args) {
-	// Á¤¼ö¸¦ ÀÔ·Â ¹Ş¾Æ ÀÔ·Â¹ŞÀº Á¤¼ö°¡ 5ÀÇ ¹è¼öÀÎÁö ¾Æ´ÑÁö Ãâ·ÂÇÏ½Ã¿À
+	// ì •ìˆ˜ë¥¼ ì…ë ¥ ë°›ì•„ ì…ë ¥ë°›ì€ ì •ìˆ˜ê°€ 5ì˜ ë°°ìˆ˜ì¸ì§€ ì•„ë‹Œì§€ ì¶œë ¥í•˜ì‹œì˜¤
 		Scanner sc = new Scanner(System.in);
-		System.out.println("Á¤¼ö ÀÔ·Â");
+		System.out.println("ì •ìˆ˜ ì…ë ¥");
 		int a = sc.nextInt();
 		if(a%5 == 0) {
-			System.out.println("5ÀÇ ¹è¼öÀÔ´Ï´Ù.");
+			System.out.println("5ì˜ ë°°ìˆ˜ì…ë‹ˆë‹¤.");
 		}
 		if(a%5!= 0) {
-			System.out.println("5ÀÇ ¹è¼ö°¡ ¾Æ´Õ´Ï´Ù.");
+			System.out.println("5ì˜ ë°°ìˆ˜ê°€ ì•„ë‹™ë‹ˆë‹¤.");
 		}
-		
+		sc.close();
 }		
 }
 

@@ -4,13 +4,13 @@ public class Ex02 {
 
 	public static void main(String[] args) {
 		int num1 = 9, num2 = 2;
-		System.out.println(num1 / num2); //³ª´©±â ¿¬»êÀÚ´Â Á¤¼ö³ª´©±â Á¤¼ö ÈÄ ¸ò¸¸ ³ª¿È
-		System.out.println(num1 / (double)num2); //½Ç¼ö °ªÀ» ¿øÇÒ½Ã ÇÏ³ªÀÇ Á¤¼ö¸¦ ½Ç¼ö·Î º¯È¯ÇØ¾ßÇÔ
+		System.out.println(num1 / num2); //ë‚˜ëˆ„ê¸° ì—°ì‚°ìžëŠ” ì •ìˆ˜ë‚˜ëˆ„ê¸° ì •ìˆ˜ í›„ ëª«ë§Œ ë‚˜ì˜´
+		System.out.println(num1 / (double)num2); //ì‹¤ìˆ˜ ê°’ì„ ì›í• ì‹œ í•˜ë‚˜ì˜ ì •ìˆ˜ë¥¼ ì‹¤ìˆ˜ë¡œ ë³€í™˜í•´ì•¼í•¨
 		System.out.println(num1 / 2.0);
-		System.out.println(num1 % num2); //ÆÛ¼¾Æ® ¿¬»êÀÚ´Â ³ª¸ÓÁö¸¦ ±¸ÇØÁÜ
+		System.out.println(num1 % num2); //í¼ì„¼íŠ¸ ì—°ì‚°ìžëŠ” ë‚˜ë¨¸ì§€ë¥¼ êµ¬í•´ì¤Œ
 		
 		/*
-		 * º¹ÇÕ´ëÀÔ ¿¬»êÀÚ
+		 * ë³µí•©ëŒ€ìž… ì—°ì‚°ìž
 		 a = 10 b =5;
 		 a = a + b; => a+=b;
 		 a = a * b; => a*=b;
@@ -27,14 +27,14 @@ public class Ex02 {
 		System.out.println(su1/=su2);
 		System.out.println(su1%=su2);
 		/*
-		 °ü°è¿¬»êÀÚ : °á°úÀûÀ¸·Î´Â Âü(true)¶Ç´Â °ÅÁþ(false)
+		 ê´€ê³„ì—°ì‚°ìž : ê²°ê³¼ì ìœ¼ë¡œëŠ” ì°¸(true)ë˜ëŠ” ê±°ì§“(false)
 		 a =10, b =5;
 		 a > b : true
 		 a <= b : false
 		 a == b : false
 		 a != b : true
-		 10 > 5 > 2 : »ç¿ë ¸øÇÔ
-		 °ü°è¿¬»êÀÚ´Â ÀÌÇ×¿¬»êÀÚÀÌ¸ç ¿¬»êÀÚ »çÀÌ ÇÇ ¿¬»êÀÚ°¡ 2°³ ¿Â´Ù
+		 10 > 5 > 2 : ì‚¬ìš© ëª»í•¨
+		 ê´€ê³„ì—°ì‚°ìžëŠ” ì´í•­ì—°ì‚°ìžì´ë©° ì—°ì‚°ìž ì‚¬ì´ í”¼ ì—°ì‚°ìžê°€ 2ê°œ ì˜¨ë‹¤
 		 */
 		double do1 = 3.1, do2 = 3.0;
 		System.out.println(do1 <= do2);
@@ -42,10 +42,10 @@ public class Ex02 {
 		System.out.println(do1 == do2);
 		System.out.println(do1 != do2);
 		/*
-		 ³í¸®¿¬»êÀÚ : Âü¶Ç´Â °ÅÁþ °á°ú
-		 &&(and) : ¸ðµÎ°¡ ÂüÀÏ¶§ Âü
-		 ||(or) : ÇÏ³ª¶óµµ ÂüÀÌ¸é Âü
-		 !(not) : ¹ÝÀü½ÃÄÑÁØ´Ù.
+		 ë…¼ë¦¬ì—°ì‚°ìž : ì°¸ë˜ëŠ” ê±°ì§“ ê²°ê³¼
+		 &&(and) : ëª¨ë‘ê°€ ì°¸ì¼ë•Œ ì°¸
+		 ||(or) : í•˜ë‚˜ë¼ë„ ì°¸ì´ë©´ ì°¸
+		 !(not) : ë°˜ì „ì‹œì¼œì¤€ë‹¤.
 		 */
 		int su3;
 		su1 = 10; su2 = 20; su3 = 30;
@@ -64,14 +64,14 @@ public class Ex02 {
 		System.out.println(!true);
 		System.out.println(!false);
 		/*
-		 Áõ°¨ ¿¬»êÀÚ : °á°úÀûÀ¸·Î ÀÚ±âÀÚ½ÅÀ» 1Áõ°¡ ¶Ç´Â °¨¼Ò
+		 ì¦ê° ì—°ì‚°ìž : ê²°ê³¼ì ìœ¼ë¡œ ìžê¸°ìžì‹ ì„ 1ì¦ê°€ ë˜ëŠ” ê°ì†Œ
 		 a = 10;
-		 ++a : ÀüÄ¡ ¶Ç´Â ÀüÀ§
-		 a++ : ÈÄÄ¡ ¶Ç´Â ÈÄÀ§
+		 ++a : ì „ì¹˜ ë˜ëŠ” ì „ìœ„
+		 a++ : í›„ì¹˜ ë˜ëŠ” í›„ìœ„
 		 a++, ++a : a = a+1;
 		 a--, --a : a = a+1;
 		 */
-		System.out.println("===Áõ°¨¿¬»êÀÚ===");
+		System.out.println("===ì¦ê°ì—°ì‚°ìž===");
 		su1 = 10;
 		su1++;
 		System.out.println(su1);
@@ -87,16 +87,16 @@ public class Ex02 {
 		
 		su1 = 10;
 		su2 = ++su1;
-		System.out.println("su1 : " + su1); //ºÎÈ£°¡ ¾Õ¿¡ ºÙ¾îÀÖÀ¸¸é ¾î¶°ÇÑ ¿¬»êÀÚ º¸´Ù º¯¼ö¸¦ Áõ°¨½ÃÅ´
+		System.out.println("su1 : " + su1); //ë¶€í˜¸ê°€ ì•žì— ë¶™ì–´ìžˆìœ¼ë©´ ì–´ë– í•œ ì—°ì‚°ìž ë³´ë‹¤ ë³€ìˆ˜ë¥¼ ì¦ê°ì‹œí‚´
 		System.out.println("su2 : " + su2);
 		
-		System.out.println("===»ïÇ×¿¬»çÀÚ===");
+		System.out.println("===ì‚¼í•­ì—°ì‚¬ìž===");
 		/*
-		 »ïÇ×¿¬»êÀÚ(Á¶°Ç¿¬»êÀÚ)
-		 º¯¼ö = ½Ä ? Âü(°ª) : °ÅÁþ(°ª);
+		 ì‚¼í•­ì—°ì‚°ìž(ì¡°ê±´ì—°ì‚°ìž)
+		 ë³€ìˆ˜ = ì‹ ? ì°¸(ê°’) : ê±°ì§“(ê°’);
 		 */
 		su1 = 11; 
-		String s = (su1%2==0)?"Â¦¼ö":"È¦¼ö"; //°ªÀÌ ÂüÀÌ¸é ?¾Õ¿¡ °ª, °ÅÁþÀÌ¸é : ´ÙÀ½°ªÀÌ º¯¼ö¿¡ ÀúÀåµÊ.
+		String s = (su1%2==0)?"ì§ìˆ˜":"í™€ìˆ˜"; //ê°’ì´ ì°¸ì´ë©´ ?ì•žì— ê°’, ê±°ì§“ì´ë©´ : ë‹¤ìŒê°’ì´ ë³€ìˆ˜ì— ì €ìž¥ë¨.
 		System.out.println(su1 + s );
 	}
 }

@@ -6,27 +6,27 @@ public class Ex03 {
 
 	public static void main(String[] args) {
 		/*
-		 Á¦¾î¹® : ÇÁ·Î±×·¥ÀÇ Èå¸§À» Á¦¾îÇÑ´Ù
+		 ì œì–´ë¬¸ : í”„ë¡œê·¸ë¨ì˜ íë¦„ì„ ì œì–´í•œë‹¤
 		 if, swich, for, while, do while
 		 */
 		Scanner sc = new Scanner(System.in);
 		int num;
 		
-		System.out.println("1.½¬¿î°ÔÀÓ");
-		System.out.println("2.¾î·Á¿î°ÔÀÓ");
-		System.out.println("3.Á¾·á");
+		System.out.println("1.ì‰¬ìš´ê²Œì„");
+		System.out.println("2.ì–´ë ¤ìš´ê²Œì„");
+		System.out.println("3.ì¢…ë£Œ");
 		System.out.println(">>> : ");
 		num = sc.nextInt();
 		if(num == 1) {
-			System.out.println("½¬¿î°ÔÀÓ ½ÇÇà"); //Á¾¼Ó¹®Àå
+			System.out.println("ì‰¬ìš´ê²Œì„ ì‹¤í–‰"); //ì¢…ì†ë¬¸ì¥
 		}
 		if(num == 2) {
-			System.out.println("¾î·Á¿î°ÔÀÓ ½ÇÇà");
+			System.out.println("ì–´ë ¤ìš´ê²Œì„ ì‹¤í–‰");
 		}
 		if(num == 3) {
-			System.out.println("°ÔÀÓÁ¾·á");
+			System.out.println("ê²Œì„ì¢…ë£Œ");
 		}
-		
+		sc.close();
 }
 
 }

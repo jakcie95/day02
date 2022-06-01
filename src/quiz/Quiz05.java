@@ -5,19 +5,19 @@ import java.util.Scanner;
 public class Quiz05 {
 
 	public static void main(String[] args) {
-		//Â¦¼öÃş ¿¤¸®º£ÀÌÅÍ ¹öÆ°À» ´­·¯ Â¦¼öÃşÀÏ °æ¿ì Ãş¼ö¸¦ Ãâ·ÂÇÏ°í
-		//¾Æ´Ò°æ¿ì Àß¸øµÈ µ¿ÀÛÀÔ´Ï´Ù¸¦ Ãâ·ÂÇÏ½Ã¿À
+		//ì§ìˆ˜ì¸µ ì—˜ë¦¬ë² ì´í„° ë²„íŠ¼ì„ ëˆŒëŸ¬ ì§ìˆ˜ì¸µì¼ ê²½ìš° ì¸µìˆ˜ë¥¼ ì¶œë ¥í•˜ê³ 
+		//ì•„ë‹ê²½ìš° ì˜ëª»ëœ ë™ì‘ì…ë‹ˆë‹¤ë¥¼ ì¶œë ¥í•˜ì‹œì˜¤
 		Scanner sc = new Scanner(System.in);
-		System.out.println("¹öÆ°À» ´­·¯ÁÖ¼¼¿ä");
+		System.out.println("ë²„íŠ¼ì„ ëˆŒëŸ¬ì£¼ì„¸ìš”");
 		int button = sc.nextInt();
 		if(button%2 == 0) {
-			System.out.println(button +"Ãş ÀÔ´Ï´Ù.");
+			System.out.println(button +"ì¸µ ì…ë‹ˆë‹¤.");
 		}
 		if(button%2 != 0) {
-			System.out.println("Àß¸øµÈ µ¿ÀÛÀÔ´Ï´Ù.");
+			System.out.println("ì˜ëª»ëœ ë™ì‘ì…ë‹ˆë‹¤.");
 		}
 		
-		
+		sc.close();
 
 	}
 

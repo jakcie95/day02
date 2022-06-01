@@ -6,25 +6,25 @@ public class Quiz01 {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		System.out.println("´ç½ÅÀÇ ÀÌ¸§Àº ¹«¾ùÀÔ´Ï±î : ");
+		System.out.println("ë‹¹ì‹ ì˜ ì´ë¦„ì€ ë¬´ì—‡ì…ë‹ˆê¹Œ : ");
 		String name = sc.next();
-		System.out.println(name + "´ÔÀÇ ±¹¾î Á¡¼ö : ");
+		System.out.println(name + "ë‹˜ì˜ êµ­ì–´ ì ìˆ˜ : ");
 		int kor = sc.nextInt();
-		System.out.println(name + "´ÔÀÇ ¿µ¾î Á¡¼ö : ");
+		System.out.println(name + "ë‹˜ì˜ ì˜ì–´ ì ìˆ˜ : ");
 		int eng = sc.nextInt();
-		System.out.println(name + "´ÔÀÇ ¼öÇĞ Á¡¼ö : ");
+		System.out.println(name + "ë‹˜ì˜ ìˆ˜í•™ ì ìˆ˜ : ");
 		int math = sc.nextInt();
 		
-		System.out.println("ÀÌ ¸§ : " + name);
+		System.out.println("ì´ ë¦„ : " + name);
 		System.out.println("==============");
-		System.out.println("±¹ ¾î : " + kor);
-		System.out.println("¿µ ¾î : " + eng);
-		System.out.println("¼ö ÇĞ : " + math);
+		System.out.println("êµ­ ì–´ : " + kor);
+		System.out.println("ì˜ ì–´ : " + eng);
+		System.out.println("ìˆ˜ í•™ : " + math);
 		System.out.println("==============");
-		System.out.println("ÇÕ °è : "+(kor + eng+ math));
+		System.out.println("í•© ê³„ : "+(kor + eng+ math));
 		System.out.println("==============");
 		
-		
+		sc.close();
 
 	}
 

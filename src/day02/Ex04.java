@@ -5,21 +5,21 @@ public class Ex04 {
 	public static void main(String[] args) {
 		int num  = 2;
 		if(num%2 == 0) {
-			System.out.println("Â¦¼ö");
+			System.out.println("ì§ìˆ˜");
 		}
 		if(num%2 != 0){
-			System.out.println("È¦¼ö");
+			System.out.println("í™€ìˆ˜");
 		}
 		
 		
 		
 		if(num < 10)
 		{
-		System.out.println("1.numÀº 10º¸´Ù ÀÛ´Ù");//if¹®ÀÇ Ã¹¹øÂ°¹®Àå = if¹®¿¡ ´ëÇÑ Á¾¼Ó¹®Àå (Á¶°ÇÀÌ Âü ÀÏ°æ¿ì ½ÇÇàµÊ)
-		System.out.println("2.numÀº 10º¸´Ù ÀÛ´Ù");//¿©·¯°³ Á¾¼Ó¹®ÀåÀ» »ç¿ëÇÒ°æ¿ì Áß°ıÈ£ »ç¿ë
-		System.out.println("3.numÀº 10º¸´Ù ÀÛ´Ù");
+		System.out.println("1.numì€ 10ë³´ë‹¤ ì‘ë‹¤");//ifë¬¸ì˜ ì²«ë²ˆì§¸ë¬¸ì¥ = ifë¬¸ì— ëŒ€í•œ ì¢…ì†ë¬¸ì¥ (ì¡°ê±´ì´ ì°¸ ì¼ê²½ìš° ì‹¤í–‰ë¨)
+		System.out.println("2.numì€ 10ë³´ë‹¤ ì‘ë‹¤");//ì—¬ëŸ¬ê°œ ì¢…ì†ë¬¸ì¥ì„ ì‚¬ìš©í• ê²½ìš° ì¤‘ê´„í˜¸ ì‚¬ìš©
+		System.out.println("3.numì€ 10ë³´ë‹¤ ì‘ë‹¤");
 		}
-		System.out.println("´ÙÀ½ ¹®Àåµé ½ÇÇà"); // Á¶°Ç¹®¿¡ »ó°ü¾øÀÌ Ãâ·ÂµÊ
+		System.out.println("ë‹¤ìŒ ë¬¸ì¥ë“¤ ì‹¤í–‰"); // ì¡°ê±´ë¬¸ì— ìƒê´€ì—†ì´ ì¶œë ¥ë¨
 
 }
 }

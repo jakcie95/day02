@@ -5,36 +5,37 @@ import java.util.Scanner;
 public class Quiz02 {
 
 	public static void main(String[] args) {
-		//³» Ç®ÀÌ
+		//ë‚´ í’€ì´
 		Scanner sc = new Scanner(System.in);
-		System.out.print("¼ö¸¦ ÀÔ·ÂÇÏ½Ê½Ã¿À : ");
+		System.out.print("ìˆ˜ë¥¼ ì…ë ¥í•˜ì‹­ì‹œì˜¤ : ");
 		int su1 = sc.nextInt();
-		String a = (su1%2==0)?"Â¦¼ö":"È¦¼ö";
+		String a = (su1%2==0)?"ì§ìˆ˜":"í™€ìˆ˜";
 		System.out.println(su1 + " = " + a);
-		String b = (su1%3==0)?"3ÀÇ¹è¼ö´Ù":"3ÀÇ¹è¼ö°¡ ¾Æ´Ï´Ù";
+		String b = (su1%3==0)?"3ì˜ë°°ìˆ˜ë‹¤":"3ì˜ë°°ìˆ˜ê°€ ì•„ë‹ˆë‹¤";
 		System.out.println(su1 + " = " + b);
-		System.out.print("µÎ ¼ö ÀÔ·Â : ");
+		System.out.print("ë‘ ìˆ˜ ì…ë ¥ : ");
 		int num1 = sc.nextInt();
 		int num2 = sc.nextInt();
 		System.out.println("num1 : " + num1 + ",num2 : " + num2);
-		String c = (num1 > num2)?"num1ÀÌ num2º¸´Ù Å©´Ù" : "num2°¡ num1º¸´Ù Å©´Ù";
+		String c = (num1 > num2)?"num1ì´ num2ë³´ë‹¤ í¬ë‹¤" : "num2ê°€ num1ë³´ë‹¤ í¬ë‹¤";
 		System.out.println(c);
 		
-		//°­»ç´Ô Ç®ÀÌ
-		System.out.println("¼ö ÀÔ·Â : ");
+		//ê°•ì‚¬ë‹˜ í’€ì´
+		System.out.println("ìˆ˜ ì…ë ¥ : ");
 		int g = sc.nextInt();
 		String s;
-		s = (g%2 == 0)? "Â¦" :"È¦";
+		s = (g%2 == 0)? "ì§" :"í™€";
 		System.out.println(g+"="+s);
-		s = (g%3 == 0)? "¹è¼ö" : "¾Æ´Ô";
+		s = (g%3 == 0)? "ë°°ìˆ˜" : "ì•„ë‹˜";
 		System.out.println(g+"="+s);
 		
 		int su3, su4;
-		System.out.println("µÎ¼ö ÀÔ·Â");
+		System.out.println("ë‘ìˆ˜ ì…ë ¥");
 		su3 = sc.nextInt();
 		su4 = sc.nextInt();
-		s = (su3 > su4)?"su1Å©´Ù":"su2Å©´Ù";
+		s = (su3 > su4)?"su1í¬ë‹¤":"su2í¬ë‹¤";
 		System.out.println(su3+","+su4+s);
+		sc.close();
 	}
 
 }

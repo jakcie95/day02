@@ -5,20 +5,20 @@ import java.util.Scanner;
 public class Ex01 {
 
 	public static void main(String[] args) {
-		final String KOREA = "´ëÇÑ¹Î±¹";
+		final String KOREA = "ëŒ€í•œë¯¼êµ­";
 		System.out.println(KOREA);
-		//KOREA = "ÄÉ³ª´Ù";
+		//KOREA = "ì¼€ë‚˜ë‹¤";
 		//System.out.println(KOREA);
-		//final ¼±¾ğÀ» ÇÒ¶§´Â Åë»óÀûÀ¸·Î ´ë¹®ÀÚ·Î º¯¼ö¸¦ ½á¼­ ±¸ºĞÇÑ´Ù.
+		//final ì„ ì–¸ì„ í• ë•ŒëŠ” í†µìƒì ìœ¼ë¡œ ëŒ€ë¬¸ìë¡œ ë³€ìˆ˜ë¥¼ ì¨ì„œ êµ¬ë¶„í•œë‹¤.
 		
 		Scanner sc = new Scanner(System.in);
-		System.out.print("ÀÌ¸§ ÀÔ·Â : ");
+		System.out.print("ì´ë¦„ ì…ë ¥ : ");
 		String name = sc.next();
 		int age;
-		System.out.println("³ªÀÌ ÀÔ·Â : ");
+		System.out.println("ë‚˜ì´ ì…ë ¥ : ");
 		age =sc.nextInt();
 		
-		System.out.println(name +"´ÔÀÇ ³ªÀÌ´Â " + age);
+		System.out.println(name +"ë‹˜ì˜ ë‚˜ì´ëŠ” " + age);
 	}
 
 }

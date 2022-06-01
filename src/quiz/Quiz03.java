@@ -5,18 +5,18 @@ import java.util.Scanner;
 public class Quiz03 {
 
 	public static void main(String[] args) {
-		// ½ÃÇè Á¡¼ö¸¦ ÀÔ·Â¹Ş¾Æ 70ÀÌ»óÀÏ °æ¿ì ÇÕ°İ 70¹Ì¸¸ÀÏ°æ¿ì ºÒÇÕ°İÀ¸·Î Ãâ·ÂÇÏ½Ã¿À
+		// ì‹œí—˜ ì ìˆ˜ë¥¼ ì…ë ¥ë°›ì•„ 70ì´ìƒì¼ ê²½ìš° í•©ê²© 70ë¯¸ë§Œì¼ê²½ìš° ë¶ˆí•©ê²©ìœ¼ë¡œ ì¶œë ¥í•˜ì‹œì˜¤
 		Scanner sc = new Scanner(System.in);
-		System.out.println("½ÃÇèÁ¡¼ö : ");
+		System.out.println("ì‹œí—˜ì ìˆ˜ : ");
 		int score = sc.nextInt();
 		if(score >= 70) {
-			System.out.println("ÃàÇÏÇÕ´Ï´Ù ½ÃÇè¿¡ ÇÕ°İÇÏ¼Ì½À´Ï´Ù.");
+			System.out.println("ì¶•í•˜í•©ë‹ˆë‹¤ ì‹œí—˜ì— í•©ê²©í•˜ì…¨ìŠµë‹ˆë‹¤.");
 		}
 		if(score < 70) {
-			System.out.println("½ÃÇè¿¡ ºÒÇÕ°İÇÏ¼Ì½À´Ï´Ù.");
+			System.out.println("ì‹œí—˜ì— ë¶ˆí•©ê²©í•˜ì…¨ìŠµë‹ˆë‹¤.");
 		}
 		
-			
+		sc.close();
 	}
 
 }

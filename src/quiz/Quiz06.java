@@ -5,20 +5,21 @@ import java.util.Scanner;
 public class Quiz06 {
 
 	public static void main(String[] args) {
-		//Á¤¼ö¸¦ µÎ°³ ÀÔ·Â¹Ş¾Æ ´ë¼Ò ±¸ºĞÀ» ÇÏ¿© Ãâ·ÂÇÏ°í °°À»°æ¿ì °°´Ù°í Ãâ·Â
+		//ì •ìˆ˜ë¥¼ ë‘ê°œ ì…ë ¥ë°›ì•„ ëŒ€ì†Œ êµ¬ë¶„ì„ í•˜ì—¬ ì¶œë ¥í•˜ê³  ê°™ì„ê²½ìš° ê°™ë‹¤ê³  ì¶œë ¥
 		Scanner sc = new Scanner(System.in);
-		System.out.println("Á¤¼ö ÀÔ·Â : ");
+		System.out.println("ì •ìˆ˜ ì…ë ¥ : ");
 		int num1 = sc.nextInt();
 		int num2 = sc.nextInt();
 		if(num1 > num2) {
-			System.out.println(num1  + "ÀÌ" + num2 +"º¸´Ù Å©´Ù.");
+			System.out.println(num1  + "ì´" + num2 +"ë³´ë‹¤ í¬ë‹¤.");
 		}
 		if(num1 < num2) {
-			System.out.println(num2  + "ÀÌ" + num1 +"º¸´Ù Å©´Ù.");
+			System.out.println(num2  + "ì´" + num1 +"ë³´ë‹¤ í¬ë‹¤.");
 		}
 		if(num1 == num2) {
-			System.out.println("µÑÀÇ °ªÀÌ °°´Ù.");
+			System.out.println("ë‘˜ì˜ ê°’ì´ ê°™ë‹¤.");
 		}
+		sc.close();
 	}
 
 }
